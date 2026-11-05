@@ -1,0 +1,26 @@
+
+name: ConquestSMP-AntiCheat
+version: 1.1.0
+main: com.conquestsmp.anticheat.ConquestAntiCheat
+api-version: '1.21'
+author: ConquestSMP
+description: ConquestSMP Anti-Cheat Plugin
+
+commands:
+  conquestac:
+    description: Anti-cheat admin command
+    aliases: [cac]
+    usage: /conquestac <gui|alerts|reload|status>
+
+permissions:
+  conquestac.admin:
+    description: Access the anti-cheat admin GUI and commands
+    default: op
+
+  conquestac.alerts:
+    description: Receive anti-cheat alerts
+    default: op
+
+  conquestac.bypass:
+    description: Bypass anti-cheat checks
+    default: false
