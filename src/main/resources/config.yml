@@ -1,0 +1,27 @@
+
+alerts:
+  enabled: true
+  cooldown-seconds: 8
+  prefix: '&8[&5ConquestAC&8] &r'
+
+checks:
+  movement:
+    enabled: true
+    max-horizontal-distance: 0.90
+    flags-before-alert: 4
+
+  flight:
+    enabled: true
+    stable-air-ticks-before-alert: 8
+    flags-before-alert: 3
+
+  no-fall:
+    enabled: true
+
+  xray:
+    enabled: false
+    note: 'Use Paper anti-xray settings. This plugin does not detect X-ray by itself.'
+
+punishments:
+  enabled: false
+  command: 'kick %player% Suspicious activity (%check%)'
