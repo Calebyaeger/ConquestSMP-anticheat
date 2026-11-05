@@ -27,7 +27,7 @@ public final class AdminGui implements Listener {
             "checks.movement.enabled"));
         inv.setItem(12, toggle(Material.ELYTRA, "&dFlight Check",
             "checks.flight.enabled"));
-        inv.setItem(14, toggle(Material.BOOTS, "&eNo-Fall Check",
+        inv.setItem(14, toggle(Material.IRON_BOOTS, "&eNo-Fall Check",
             "checks.no-fall.enabled"));
         inv.setItem(16, toggle(Material.DIAMOND_ORE,
             "&aX-ray (Paper config recommended)", "checks.xray.enabled"));
